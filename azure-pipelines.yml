@@ -39,4 +39,3 @@ steps:
     repository: 'amolbhawari/newconatineraspnetjanuary'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-- task: PublishBuildArtifacts@1
