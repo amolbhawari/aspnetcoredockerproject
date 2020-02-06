@@ -36,6 +36,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'dockerASPNET'
-    repository: 'amolbhawari/testcontainerforaspnetdocker'
+    repository: 'amolbhawari/testcontainerforaspnetdocker:latest'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
